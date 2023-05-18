@@ -70,7 +70,7 @@ export default function App() {
               </div>
               <div className="p-2 w-full">
                 <button type="submit" value='send' className="flex mx-auto text-[#efeee9] bg-[#007c89] border-0 py-2 px-8 focus:outline-none  rounded text-lg">
-                  Button
+                  Submit
                 </button>
               </div>
               <div className="p-2 w-full pt-8 mt-8 mb-6 border-t border-gray-200 text-center">
