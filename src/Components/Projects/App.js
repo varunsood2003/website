@@ -5,7 +5,16 @@ import img3 from './keeper.png'
 import img4 from './exp.png'
 import img5 from './lottery.png'
 import img6 from './bud.png'
+import Aos from 'aos';
+import { useEffect } from "react";
+import 'aos/dist/aos.css'
 export default function App() {
+  useEffect(()=>{
+    Aos.init({
+      offset: 120,
+      duration: 1000
+    });
+  },[]);
   return (
     <>
     {/* <svg id='project' xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
@@ -15,11 +24,11 @@ export default function App() {
     <section className="text-gray-600 body-font">
       <div className='px-5'>
       <div  className='flex justify-center items-center'>
-      <h1 className=" sm:text-6xl text-3xl font-medium text-[#002233] pt-24 pb-5">Projects</h1>
+      <h1 data-aos="fade-up" className=" sm:text-6xl text-3xl font-medium text-[#002233] pt-24 pb-5">Projects</h1>
       </div>
   <div className="container px-5 py-5 mx-auto ">
     <div className="flex flex-wrap -m-4">
-      <div className="lg:w-1/3 sm:w-1/2 p-4" >
+      <div className="lg:w-1/3 sm:w-1/2 p-4" data-aos="fade-up">
         <div className="flex relative">
           <img alt="gallery" className="absolute inset-0 w-full h-full object-cover object-center" src={img}/>
           <div className="px-8 py-10 relative z-10 w-full border-4 border-gray-200 bg-white opacity-0 hover:opacity-100">
@@ -31,7 +40,7 @@ export default function App() {
           </div>
         </div>
       </div>
-      <div className="lg:w-1/3 sm:w-1/2 p-4">
+      <div className="lg:w-1/3 sm:w-1/2 p-4" data-aos="fade-up">
         <div className="flex relative">
           <img alt="gallery" className="absolute inset-0 w-full h-full object-cover object-center" src={img2}/>
           <div className="px-8 py-10 relative z-10 w-full border-4 border-gray-200 bg-white opacity-0 hover:opacity-100">
@@ -43,7 +52,7 @@ export default function App() {
           </div>
         </div>
       </div>
-      <div className="lg:w-1/3 sm:w-1/2 p-4">
+      <div className="lg:w-1/3 sm:w-1/2 p-4" data-aos="fade-up">
         <div className="flex relative">
           <img alt="gallery" className="absolute inset-0 w-full h-full object-cover object-center" src={img3}/>
           <div className="px-8 py-10 relative z-10 w-full border-4 border-gray-200 bg-white opacity-0 hover:opacity-100">
@@ -55,7 +64,7 @@ export default function App() {
           </div>
         </div>
       </div>
-      <div className="lg:w-1/3 sm:w-1/2 p-4">
+      <div className="lg:w-1/3 sm:w-1/2 p-4" data-aos="fade-up">
         <div className="flex relative">
           <img alt="gallery" className="absolute inset-0 w-full h-full object-cover object-center" src={img6}/>
           <div className="px-8 py-10 relative z-10 w-full border-4 border-gray-200 bg-white opacity-0 hover:opacity-100">
@@ -67,7 +76,7 @@ export default function App() {
           </div>
         </div>
       </div>
-      <div className="lg:w-1/3 sm:w-1/2 p-4">
+      <div className="lg:w-1/3 sm:w-1/2 p-4" data-aos="fade-up">
         <div className="flex relative">
           <img alt="gallery" className="absolute inset-0 w-full h-full object-cover object-center" src={img5}/>
           <div className="px-8 py-10 relative z-10 w-full border-4 border-gray-200 bg-white opacity-0 hover:opacity-100">
@@ -79,7 +88,7 @@ export default function App() {
           </div>
         </div>
       </div>
-      <div className="lg:w-1/3 sm:w-1/2 p-4">
+      <div className="lg:w-1/3 sm:w-1/2 p-4" data-aos="fade-up">
         <div className="flex relative">
           <img alt="gallery" className="absolute inset-0 w-full h-full object-cover object-center" src={img4}/>
           <div className="px-8 py-10 relative z-10 w-full border-4 border-gray-200 bg-white opacity-0 hover:opacity-100">

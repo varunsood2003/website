@@ -4,7 +4,16 @@ import github from "./github.png";
 import gfg from "./gfg.png";
 import twitter from "./twitter.png";
 import link from "./link.png";
+import Aos from 'aos';
+import { useEffect } from "react";
+import 'aos/dist/aos.css'
 export default function App() {
+  useEffect(()=>{
+    Aos.init({
+      offset: 120,
+      duration: 1000
+    });
+  },[]);
   return (
     <>
       <section
@@ -13,7 +22,7 @@ export default function App() {
       >
         <div className="container px-5  mx-auto">
           <div className="flex flex-col text-center w-full mb-12">
-            <h1 className="sm:text-6xl text-3xl font-medium mb-4 text-[#efeee8] pt-24 pb-5">
+            <h1 data-aos="fade-up" className="sm:text-6xl text-3xl font-medium mb-4 text-[#efeee8] pt-24 pb-5">
               Contact Me
             </h1>
             <p className="lg:w-2/3 mx-auto leading-relaxed text-base">
