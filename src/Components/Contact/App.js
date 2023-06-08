@@ -83,7 +83,7 @@ export default function App() {
                 </button>
               </div>
               <div className="p-2 w-full pt-8 mt-8 mb-6 border-t border-gray-200 text-center">
-                <a className="text-[#007c89]">soodvarun2003@email.com</a>
+                <a className="text-[#007c89]">soodvarun2003@gmail.com</a>
                 <p className="leading-normal my-5"></p>
                 <span className="inline-flex">
                   <a
