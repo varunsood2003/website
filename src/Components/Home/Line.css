@@ -1,0 +1,72 @@
+@import url("https://fonts.googleapis.com/css2?family=Archivo+Black&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+.marquee {
+    --gap: 1rem;
+    display: flex;
+    overflow: hidden;
+    user-select: none;
+    background-color: #efeee9;
+  }
+  
+  .marquee ul{
+    margin: 0;
+    padding: 15px;
+  }
+  
+  .marquee ul{
+    margin: 0.5rem 0 0.5rem 0;
+  }
+  
+  .marquee__content {
+    flex-shrink: 0;
+    display: flex;
+    justify-content: space-around;
+    min-width: 100%;
+    animation: scroll 25s linear infinite;
+  
+  }
+  
+  .texxt{
+    font-family: "Pacifico", cursive;
+    box-sizing: border-box;
+    margin: 0;
+    font-size: 32px;
+    white-space: nowrap;
+    padding: 15px ;
+    font-weight: bold;
+    color: #001d28;
+  }
+  
+  .texxt span{
+    font-family: 'Artifact';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    box-sizing: border-box;
+    margin: 0;
+  
+  }
+  .texxxt span{
+    font-family: 'Artifact';
+    font-style: normal;
+    font-weight: 1000;
+    font-size: 150px;
+    box-sizing: border-box;
+    margin: 0;
+  
+  }
+  
+  .marquee__content li{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  @keyframes scroll {
+    from {
+      transform: translateX(0);
+    }
+    to {
+      transform: translateX(-100% );
+    }
+  }

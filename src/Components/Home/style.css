@@ -1,4 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Merienda:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
 .font-link{
-    font-family: 'Merienda', cursive;
+    /* font-family: 'Merienda', cursive; */
+    font-family: "Pacifico", cursive;
 }

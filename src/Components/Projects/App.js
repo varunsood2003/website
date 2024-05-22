@@ -30,8 +30,8 @@ export default function App() {
     <div className="flex flex-wrap -m-4">
       <div className="lg:w-1/3 sm:w-1/2 p-4" data-aos="fade-up">
         <div className="flex relative">
-          <img alt="gallery" className="absolute inset-0 w-full h-full object-cover object-center" src={img}/>
-          <div className="px-8 py-10 relative z-10 w-full border-4 border-gray-200 bg-white opacity-0 hover:opacity-100">
+          {/* <img alt="gallery" className="absolute inset-0 w-full h-full object-cover object-center" src={img}/> */}
+          <div className="px-8 py-10 relative z-10 w-full border-4 border-gray-200 bg-white opacity-100">
             <h1 className="title-font text-lg font-medium text-gray-900 mb-3">Chat-App</h1>
             <p className="leading-relaxed">Developed a real-time chat application using React.js and used Firebase as the backend. Implemented user authentication using Firebase Authentication for secure login and sign-up functionality.</p>
             <p className="">Tech Stack: React js and Firebase</p>
@@ -42,8 +42,8 @@ export default function App() {
       </div>
       <div className="lg:w-1/3 sm:w-1/2 p-4" data-aos="fade-up">
         <div className="flex relative">
-          <img alt="gallery" className="absolute inset-0 w-full h-full object-cover object-center" src={img2}/>
-          <div className="px-8 py-10 relative z-10 w-full border-4 border-gray-200 bg-white opacity-0 hover:opacity-100">
+          {/* <img alt="gallery" className="absolute inset-0 w-full h-full object-cover object-center" src={img2}/> */}
+          <div className="px-8 py-10 relative z-10 w-full border-4 border-gray-200 bg-white opacity-100">
             <h1 className="title-font text-lg font-medium text-gray-900 mb-3">Crypto World</h1>
             <p className="leading-relaxed">Built a web app that displays the prices of all the crypto currencies, could be a useful tool for keeping track of the value of various digital assets.</p>
             <p className="">Tech Stack: React js, Axios</p>
@@ -54,20 +54,20 @@ export default function App() {
       </div>
       <div className="lg:w-1/3 sm:w-1/2 p-4" data-aos="fade-up">
         <div className="flex relative">
-          <img alt="gallery" className="absolute inset-0 w-full h-full object-cover object-center" src={img3}/>
-          <div className="px-8 py-10 relative z-10 w-full border-4 border-gray-200 bg-white opacity-0 hover:opacity-100">
-            <h1 className="title-font text-lg font-medium text-gray-900 mb-3">Keeper</h1>
-            <p className="leading-relaxed">A note taking app that performs CRUD (create, read, update, delete) operations which is a useful tool for individuals to store and manage their notes.</p>
-            <p className="">Tech Stack: React js</p>
-            <button className="rounded-xl inline-flex text-white bg-[#007c89] border-0 py-1 px-6 focus:outline-none  text-lg mr-4 "><a href="https://github.com/varunsood2003/Keeper">Github</a> </button>
-            <button className="rounded-xl inline-flex text-white bg-[#007c89] border-0 py-1 px-6 focus:outline-none  text-lg mt-3"><a href="https://varunsood2003.github.io/Keeper/">Live Link</a> </button>
+          {/* <img alt="gallery" className="absolute inset-0 w-full h-full object-cover object-center" src={img3}/> */}
+          <div className="px-8 py-10 relative z-10 w-full border-4 border-gray-200 bg-white opacity-100">
+            <h1 className="title-font text-lg font-medium text-gray-900 mb-3">Blogging Website</h1>
+            <p className="leading-relaxed">A dynamic blogging web application where individuals can share their thoughts and connect with others.</p>
+            <p className="">Tech Stack: React js, Typescript, Cloudfare Workers, Hono, Prisma, PostgreSQL</p>
+            <button className="rounded-xl inline-flex text-white bg-[#007c89] border-0 py-1 px-6 focus:outline-none  text-lg mr-4 "><a href="https://github.com/varunsood2003/blog">Github</a> </button>
+            <button className="rounded-xl inline-flex text-white bg-[#007c89] border-0 py-1 px-6 focus:outline-none  text-lg mt-3"><a href="https://blog-azure-zeta-91.vercel.app/signin">Live Link</a> </button>
           </div>
         </div>
       </div>
       <div className="lg:w-1/3 sm:w-1/2 p-4" data-aos="fade-up">
         <div className="flex relative">
-          <img alt="gallery" className="absolute inset-0 w-full h-full object-cover object-center" src={img6}/>
-          <div className="px-8 py-10 relative z-10 w-full border-4 border-gray-200 bg-white opacity-0 hover:opacity-100">
+          {/* <img alt="gallery" className="absolute inset-0 w-full h-full object-cover object-center" src={img6}/> */}
+          <div className="px-8 py-10 relative z-10 w-full border-4 border-gray-200 bg-white opacity-100">
             <h1 className="title-font text-lg font-medium text-gray-900 mb-3">Grocery Buddy</h1>
             <p className="leading-relaxed">Grocery Buddy is a user-friendly web application that helps you manage your grocery list. It allows CRUD operations, also stores your data in local storage.</p>
             <p className="">Tech Stack: React js</p>
@@ -78,8 +78,8 @@ export default function App() {
       </div>
       <div className="lg:w-1/3 sm:w-1/2 p-4" data-aos="fade-up">
         <div className="flex relative">
-          <img alt="gallery" className="absolute inset-0 w-full h-full object-cover object-center" src={img5}/>
-          <div className="px-8 py-10 relative z-10 w-full border-4 border-gray-200 bg-white opacity-0 hover:opacity-100">
+          {/* <img alt="gallery" className="absolute inset-0 w-full h-full object-cover object-center" src={img5}/> */}
+          <div className="px-8 py-10 relative z-10 w-full border-4 border-gray-200 bg-white opacity-100">
             <h1 className="title-font text-lg font-medium text-gray-900 mb-3">Sign-up</h1>
             <p className="leading-relaxed">The Email Sign-Up for Newsletter is a Node.js and Express-based web application that allows users to easily subscribe to a newsletter.</p>
             <p className="">Tech Stack: Nodejs, Expressjs</p>
@@ -90,8 +90,8 @@ export default function App() {
       </div>
       <div className="lg:w-1/3 sm:w-1/2 p-4" data-aos="fade-up">
         <div className="flex relative">
-          <img alt="gallery" className="absolute inset-0 w-full h-full object-cover object-center" src={img4}/>
-          <div className="px-8 py-10 relative z-10 w-full border-4 border-gray-200 bg-white opacity-0 hover:opacity-100">
+          {/* <img alt="gallery" className="absolute inset-0 w-full h-full object-cover object-center" src={img4}/> */}
+          <div className="px-8 py-10 relative z-10 w-full border-4 border-gray-200 bg-white opacity-100">
             <h1 className="title-font text-lg font-medium text-gray-900 mb-3">Expense Tracker</h1>
             <p className="leading-relaxed">Made a expense tracker webapp that helps you to keep a track of all your expenses. </p>
             <p className="">Tech Stack: React js</p>

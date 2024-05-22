@@ -3,6 +3,7 @@ import wave from "./wave.svg";
 import Aos from 'aos';
 import { useEffect } from "react";
 import 'aos/dist/aos.css'
+import image from "../bush.jpeg"
 export default function App() {
   useEffect(()=>{
     Aos.init({
@@ -12,7 +13,11 @@ export default function App() {
   },[])
   return (
     <>
-      <section className=" bg-[#0d2832]">
+      <section style={{
+          backgroundImage: `url(${image})`,
+          backgroundSize: 'cover',
+          backgroundPosition: 'center',
+        }} className=" bg-[#0d2832]">
         {/* <svg
           id="about"
           xmlns="http://www.w3.org/2000/svg"
