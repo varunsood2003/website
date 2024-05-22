@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/website/static/css/main.8a948ead.css",
+    "main.js": "/website/static/js/main.43694d28.js",
+    "static/media/bush.jpeg": "/website/static/media/bush.8f80f9edc148abae76f0.jpeg",
+    "static/media/home.png": "/website/static/media/home.3430653d9d6c583f29ac.png",
+    "static/media/exp.png": "/website/static/media/exp.b030eee27b2dd8785b4e.png",
+    "static/media/CRYPTO.png": "/website/static/media/CRYPTO.e3b7cf4adf1f5e429f14.png",
+    "static/media/bud.png": "/website/static/media/bud.d5ad44628239608ce1b5.png",
+    "static/media/lottery.png": "/website/static/media/lottery.3eaf121fa756c7687d55.png",
+    "static/media/wisdom.png": "/website/static/media/wisdom.e4ae4538bebe0b42cdf8.png",
+    "static/media/github.png": "/website/static/media/github.54630180d7555116a203.png",
+    "static/media/keeper.png": "/website/static/media/keeper.70eb954511f0e51821b9.png",
+    "static/media/twitter.png": "/website/static/media/twitter.e1f7e7cfdd712ed92669.png",
+    "static/media/gfg.png": "/website/static/media/gfg.8828f8a9d0b620e83e0f.png",
+    "static/media/logo.svg": "/website/static/media/logo.ff30b7621081f0edff632627d2e5bc42.svg",
+    "index.html": "/website/index.html",
+    "static/media/wave.svg": "/website/static/media/wave.c5d105e07a0d6c9efad72e624176d800.svg",
+    "main.8a948ead.css.map": "/website/static/css/main.8a948ead.css.map",
+    "main.43694d28.js.map": "/website/static/js/main.43694d28.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.8a948ead.css",
+    "static/js/main.43694d28.js"
+  ]
+}
