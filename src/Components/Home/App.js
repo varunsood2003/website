@@ -18,7 +18,7 @@ export default function App() {
         <div className="container mx-auto flex px-5 py-24 md:flex-row flex-col items-center" >
             <div className="lg:flex-grow md:w-1/2 lg:pr-24 md:pr-16 flex flex-col md:items-start md:text-left mb-16 md:mb-0 items-center text-center" >
             <h1 className="text-[#001d28] tapered title-font sm:text-8xl text-5xl mb-4 font-medium "><span className='font-link'>Hey!</span> <span className='text-[#001d28] font-link'>I'm</span>
-                <br className=" lg:inline-block "/> <span className='text-[#2F454D] '>Varun</span> <span className='text-[#2F454D]'>Sood</span> 
+                <br className=" lg:inline-block "/> <span className='text-[#001d28]'>Varun</span> <span className='text-[#001d28]'>Sood</span> 
             </h1>
             <p  className="mb-8 leading-relaxed">PROGRAMMER | DEVELOPER</p>
             <div className="flex justify-center">
