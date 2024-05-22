@@ -22,7 +22,7 @@ export default function App() {
       >
         <div className="container px-5  mx-auto">
           <div className="flex flex-col text-center w-full mb-12">
-            <h1 data-aos="fade-up" className="sm:text-6xl text-3xl font-medium mb-4 text-[#efeee8] pt-24 pb-5">
+            <h1 data-aos="fade-up" className="sm:text-6xl text-3xl font-medium mb-4 text-[#efeee8] font-serif pt-24 pb-5">
               Contact Me
             </h1>
             <p className="lg:w-2/3 mx-auto leading-relaxed text-base">

@@ -24,16 +24,40 @@ export default function App() {
     <section className="text-gray-600 body-font">
       <div className='px-5'>
       <div  className='flex justify-center items-center'>
-      <h1 data-aos="fade-up" className=" sm:text-6xl text-3xl font-medium text-[#002233] pt-24 pb-5">Projects</h1>
+      <h1 data-aos="fade-up" className=" sm:text-6xl text-3xl font-medium text-[#002233] pt-24 pb-5 font-serif">Projects</h1>
       </div>
   <div className="container px-5 py-5 mx-auto ">
     <div className="flex flex-wrap -m-4">
+    <div className="lg:w-1/3 sm:w-1/2 p-4" data-aos="fade-up">
+        <div className="flex relative">
+          {/* <img alt="gallery" className="absolute inset-0 w-full h-full object-cover object-center" src={img3}/> */}
+          <div className="px-8 py-10 relative z-10 w-full border-4 border-gray-200 bg-white opacity-100">
+            <h1 className="title-font text-lg font-medium text-gray-900 mb-3">Blogging Website</h1>
+            <p className="leading-relaxed">A dynamic blogging web application where individuals can share their thoughts and connect with others.</p>
+            <p className="">Tech Stack: React js, Typescript, Cloudfare Workers, Hono, Prisma, PostgreSQL</p>
+            <button className="rounded-xl inline-flex text-white bg-[#007c89] border-0 py-1 px-6 focus:outline-none  text-lg mr-4 "><a href="https://github.com/varunsood2003/blog">Github</a> </button>
+            <button className="rounded-xl inline-flex text-white bg-[#007c89] border-0 py-1 px-6 focus:outline-none  text-lg mt-3"><a href="https://blog-azure-zeta-91.vercel.app/signin">Live Link</a> </button>
+          </div>
+        </div>
+      </div>
+      <div className="lg:w-1/3 sm:w-1/2 p-4" data-aos="fade-up">
+        <div className="flex relative">
+          {/* <img alt="gallery" className="absolute inset-0 w-full h-full object-cover object-center" src={img3}/> */}
+          <div className="px-8 py-10 relative z-10 w-full border-4 border-gray-200 bg-white opacity-100">
+            <h1 className="title-font text-lg font-medium text-gray-900 mb-3">Payments Webapp Clone</h1>
+            <p className="leading-relaxed">Developed a payments webapp clone, Features include secure signup/login, user search, money transfer, JWT authentication.  </p>
+            <p className="">Tech Stack: React js, Typescript, Mongodb, Node js, Express js</p>
+            <button className="rounded-xl inline-flex text-white bg-[#007c89] border-0 py-1 px-6 focus:outline-none  text-lg mr-4 "><a href="https://github.com/varunsood2003/payments_app_clone">Github</a> </button>
+            {/* <button className="rounded-xl inline-flex text-white bg-[#007c89] border-0 py-1 px-6 focus:outline-none  text-lg mt-3"><a href="https://blog-azure-zeta-91.vercel.app/signin">Live Link</a> </button> */}
+          </div>
+        </div>
+      </div>
       <div className="lg:w-1/3 sm:w-1/2 p-4" data-aos="fade-up">
         <div className="flex relative">
           {/* <img alt="gallery" className="absolute inset-0 w-full h-full object-cover object-center" src={img}/> */}
           <div className="px-8 py-10 relative z-10 w-full border-4 border-gray-200 bg-white opacity-100">
             <h1 className="title-font text-lg font-medium text-gray-900 mb-3">Chat-App</h1>
-            <p className="leading-relaxed">Developed a real-time chat application using React.js and used Firebase as the backend. Implemented user authentication using Firebase Authentication for secure login and sign-up functionality.</p>
+            <p className="leading-relaxed">Developed a real-time chat application using React.js and used Firebase as the backend.</p>
             <p className="">Tech Stack: React js and Firebase</p>
             
             <button className="rounded-xl inline-flex text-white bg-[#007c89] border-0 py-1 px-6 focus:outline-none  text-lg mt-3"><a href="https://lnkd.in/g6TsHWRt">Live Link</a> </button>
@@ -52,30 +76,9 @@ export default function App() {
           </div>
         </div>
       </div>
-      <div className="lg:w-1/3 sm:w-1/2 p-4" data-aos="fade-up">
-        <div className="flex relative">
-          {/* <img alt="gallery" className="absolute inset-0 w-full h-full object-cover object-center" src={img3}/> */}
-          <div className="px-8 py-10 relative z-10 w-full border-4 border-gray-200 bg-white opacity-100">
-            <h1 className="title-font text-lg font-medium text-gray-900 mb-3">Blogging Website</h1>
-            <p className="leading-relaxed">A dynamic blogging web application where individuals can share their thoughts and connect with others.</p>
-            <p className="">Tech Stack: React js, Typescript, Cloudfare Workers, Hono, Prisma, PostgreSQL</p>
-            <button className="rounded-xl inline-flex text-white bg-[#007c89] border-0 py-1 px-6 focus:outline-none  text-lg mr-4 "><a href="https://github.com/varunsood2003/blog">Github</a> </button>
-            <button className="rounded-xl inline-flex text-white bg-[#007c89] border-0 py-1 px-6 focus:outline-none  text-lg mt-3"><a href="https://blog-azure-zeta-91.vercel.app/signin">Live Link</a> </button>
-          </div>
-        </div>
-      </div>
-      <div className="lg:w-1/3 sm:w-1/2 p-4" data-aos="fade-up">
-        <div className="flex relative">
-          {/* <img alt="gallery" className="absolute inset-0 w-full h-full object-cover object-center" src={img6}/> */}
-          <div className="px-8 py-10 relative z-10 w-full border-4 border-gray-200 bg-white opacity-100">
-            <h1 className="title-font text-lg font-medium text-gray-900 mb-3">Grocery Buddy</h1>
-            <p className="leading-relaxed">Grocery Buddy is a user-friendly web application that helps you manage your grocery list. It allows CRUD operations, also stores your data in local storage.</p>
-            <p className="">Tech Stack: React js</p>
-            <button className="rounded-xl inline-flex text-white bg-[#007c89] border-0 py-1 px-6 focus:outline-none  text-lg mr-4 "><a href="https://github.com/varunsood2003/grocery-buddy">Github</a> </button>
-            <button className="rounded-xl inline-flex text-white bg-[#007c89] border-0 py-1 px-6 focus:outline-none  text-lg mt-3"><a href="https://varunsood2003.github.io/grocery-buddy/">Live Link</a> </button>
-          </div>
-        </div>
-      </div>
+      
+      
+      
       <div className="lg:w-1/3 sm:w-1/2 p-4" data-aos="fade-up">
         <div className="flex relative">
           {/* <img alt="gallery" className="absolute inset-0 w-full h-full object-cover object-center" src={img5}/> */}
