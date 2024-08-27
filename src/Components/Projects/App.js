@@ -24,7 +24,9 @@ export default function App() {
     <section className="text-gray-600 body-font">
       <div className='px-5'>
       <div  className='flex justify-center items-center'>
-      <h1 data-aos="fade-up" className=" sm:text-6xl text-3xl font-medium text-[#002233] pt-24 pb-5 font-serif">Projects</h1>
+      <h1 data-aos="fade-up" className="sm:text-6xl text-3xl font-bold mb-4 text-[#0d2832] font-serif pt-24 pb-5">
+              Projects
+            </h1>
       </div>
   <div className="container px-5 py-5 mx-auto ">
     <div className="flex flex-wrap -m-4">
@@ -37,6 +39,19 @@ export default function App() {
             <p className="">Tech Stack: React js, Typescript, Cloudfare Workers, Hono, Prisma, PostgreSQL</p>
             <button className="rounded-xl inline-flex text-white bg-[#007c89] border-0 py-1 px-6 focus:outline-none  text-lg mr-4 "><a href="https://github.com/varunsood2003/blog">Github</a> </button>
             <button className="rounded-xl inline-flex text-white bg-[#007c89] border-0 py-1 px-6 focus:outline-none  text-lg mt-3"><a href="https://blog-azure-zeta-91.vercel.app/signin">Live Link</a> </button>
+          </div>
+        </div>
+      </div>
+      <div className="lg:w-1/3 sm:w-1/2 p-4" data-aos="fade-up">
+        <div className="flex relative">
+          {/* <img alt="gallery" className="absolute inset-0 w-full h-full object-cover object-center" src={img3}/> */}
+          <div className="px-8 py-10 relative z-10 w-full border-4 border-gray-200 bg-white opacity-100">
+            <h1 className="title-font text-lg font-medium text-gray-900 mb-3">House Hunt</h1>
+            <p className="leading-relaxed">Developed a real estate web app with the MERN stack for scalability and performance. Integrated real-time chat using Socket.io for instant communication with property owners. </p>
+            <p className="">Tech Stack: React js, Node js, Express js, Prisma, Mongodb, socket.io</p>
+            <button className="rounded-xl inline-flex text-white bg-[#007c89] border-0 py-1 px-6 focus:outline-none  text-lg mr-4 "><a href="https://househunt-azure.vercel.app/">Live Link</a> </button>
+            <button className="rounded-xl inline-flex text-white bg-[#007c89] border-0 py-1 px-6 focus:outline-none  text-lg mr-4 "><a href="https://github.com/varunsood2003/HouseHunt">Github</a> </button>
+            {/* <button className="rounded-xl inline-flex text-white bg-[#007c89] border-0 py-1 px-6 focus:outline-none  text-lg mt-3"><a href="https://blog-azure-zeta-91.vercel.app/signin">Live Link</a> </button> */}
           </div>
         </div>
       </div>
@@ -88,18 +103,6 @@ export default function App() {
             <p className="">Tech Stack: Nodejs, Expressjs</p>
             <button className="rounded-xl inline-flex text-white bg-[#007c89] border-0 py-1 px-6 focus:outline-none  text-lg mr-4 "><a href="https://github.com/varunsood2003/mail-signup">Github</a> </button>
 
-          </div>
-        </div>
-      </div>
-      <div className="lg:w-1/3 sm:w-1/2 p-4" data-aos="fade-up">
-        <div className="flex relative">
-          {/* <img alt="gallery" className="absolute inset-0 w-full h-full object-cover object-center" src={img4}/> */}
-          <div className="px-8 py-10 relative z-10 w-full border-4 border-gray-200 bg-white opacity-100">
-            <h1 className="title-font text-lg font-medium text-gray-900 mb-3">Expense Tracker</h1>
-            <p className="leading-relaxed">Made a expense tracker webapp that helps you to keep a track of all your expenses. </p>
-            <p className="">Tech Stack: React js</p>
-            <button className="rounded-xl inline-flex text-white bg-[#007c89] border-0 py-1 px-6 focus:outline-none  text-lg mr-4 "><a href="https://github.com/varunsood2003/expense-tracker">Github</a> </button>
-            <button className="rounded-xl inline-flex text-white bg-[#007c89] border-0 py-1 px-6 focus:outline-none  text-lg mt-3"><a href="https://varunsood2003.github.io/expense-tracker/">Live Link</a> </button>
           </div>
         </div>
       </div>

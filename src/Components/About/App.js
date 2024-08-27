@@ -31,7 +31,7 @@ export default function App() {
         </svg> */}
         <section class="text-gray-600 body-font">
           <div id="about" class="container px-5 py-24 mx-auto ">
-            <h1 className=" sm:text-6xl text-3xl mb-4 font-medium text-[#efeee9] font-serif flex justify-center items-center p-8" data-aos="fade-up">
+            <h1 data-aos="fade-up" className="sm:text-6xl text-3xl font-bold mb-4 text-[#efeee9] font-serif pt-8  pb-5 flex justify-center items-center">
               About me
             </h1>
             <div class="flex ">
